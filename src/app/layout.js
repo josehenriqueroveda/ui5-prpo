@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
             </span>
             <span>
               <Button design="Default">
-                <Link href="/">Purchase Order</Link>
+                <Link href="/purchase-order">Purchase Order</Link>
               </Button>
             </span>
           </Bar>
