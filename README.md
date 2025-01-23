@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# UI5 Purchase Requisitions and Purchase Orders
 
-## Getting Started
+SAP UI5 interface for consulting Purchase Requisitions and Purchase Orders.
 
-First, run the development server:
+I did this project in order to improve my front-end development skills and learn SAP's UI5 library, applying it to a project with React and TailwindCSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+UI5 Web Components for React is a Fiori compliant React library built on top of the UI5 Web Components. With the help of UI5 Web Components for React, you can use UI5 Web Components as if they were native React components. In addition to that, UI5 Web Components for React is providing complex components and layouts on top of the UI5 Web Components.
+
+## Purchase Requisitons
+
+![](public\pr-page.png)
+
+---
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like it, please give a star! ⭐
+```
