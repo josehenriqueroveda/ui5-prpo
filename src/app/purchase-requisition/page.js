@@ -6,12 +6,11 @@ import {
   Select,
   Title,
   Input,
-  AnalyticalTable
+  AnalyticalTable,
 } from "@ui5/webcomponents-react";
 import mocks from "../database/mockData";
 
 export default function PurchaseRequisitionPage() {
-
   return (
     <div className="p-8">
       <Title level="H1">Purchase Requisition</Title>
@@ -51,7 +50,7 @@ export default function PurchaseRequisitionPage() {
           <div className="flex flex-row mt-10">
             <div className="flex flex-col">
               <Label className="mr-4">Created At</Label>
-              <DateRangePicker name="created-at"/>
+              <DateRangePicker name="created-at" />
             </div>
 
             <div className="flex flex-col ml-10">
