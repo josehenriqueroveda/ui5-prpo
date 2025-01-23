@@ -26,12 +26,14 @@ export default function RootLayout({ children }) {
             }
             startContent={
               <span>
-                <Image
-                  alt="SAP Logo"
-                  width={48}
-                  height={48}
-                  src="https://sap.github.io/ui5-webcomponents/images/sap-logo-svg.svg"
-                />
+                <Link href="/">
+                  <Image
+                    alt="SAP Logo"
+                    width={48}
+                    height={48}
+                    src="https://sap.github.io/ui5-webcomponents/images/sap-logo-svg.svg"
+                  />
+                </Link>
               </span>
             }
           >
