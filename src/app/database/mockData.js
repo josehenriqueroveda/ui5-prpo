@@ -1,6 +1,6 @@
 import { Title } from "@ui5/webcomponents-react";
 
-const columns = [
+const columnsPR = [
   {
     Header: <Title>ID</Title>,
     accessor: "id",
@@ -30,7 +30,8 @@ const columns = [
     accessor: "cost_center",
   },
 ];
-const data = [
+
+const dataPR = [
   {
     id: 1,
     material_code: "00680673",
@@ -168,9 +169,237 @@ const data = [
   },
 ];
 
-const mocks = {
-  columns,
-  data,
+const columnsPO = [
+  {
+    Header: <Title>Purchase Order ID</Title>,
+    accessor: "po",
+  },
+  {
+    Header: <Title>Supplier</Title>,
+    accessor: "supplier",
+  },
+  {
+    Header: <Title>Material Code</Title>,
+    accessor: "material_code",
+  },
+  {
+    Header: <Title>Material Description</Title>,
+    accessor: "material_description",
+  },
+  {
+    Header: <Title>Quantity</Title>,
+    accessor: "quantity",
+  },
+  {
+    Header: <Title>Unit</Title>,
+    accessor: "unit",
+  },
+  {
+    Header: <Title>Currency</Title>,
+    accessor: "currency",
+  },
+  {
+    Header: <Title>Created At</Title>,
+    accessor: "created_at",
+  },
+  {
+    Header: <Title>Net Price</Title>,
+    accessor: "net_price",
+  },
+  {
+    Header: <Title>Net Value</Title>,
+    accessor: "net_value",
+  },
+];
+
+const dataPO = [
+  {
+    po: 12345,
+    supplier: "Acme Corporation",
+    material_code: "ABC123",
+    material_description: "Parafusos Phillips",
+    quantity: 1000,
+    unit: "unit",
+    currency: "BRL",
+    created_at: "2023-11-23",
+    net_price: 0.25,
+    net_value: 250,
+  },
+  {
+    po: 12346,
+    supplier: "Global Supplies",
+    material_code: "XYZ456",
+    material_description: "Canetas esferográficas azuis",
+    quantity: 5000,
+    unit: "caixa",
+    currency: "USD",
+    created_at: "2023-12-05",
+    net_price: 1.5,
+    net_value: 7500,
+  },
+  {
+    po: 12347,
+    supplier: "Tech Solutions",
+    material_code: "DEF789",
+    material_description: "Cabos USB-C",
+    quantity: 200,
+    unit: "unit",
+    currency: "EUR",
+    created_at: "2023-11-28",
+    net_price: 5.0,
+    net_value: 1000,
+  },
+  {
+    po: 12348,
+    supplier: "Paper Mill",
+    material_code: "GHI012",
+    material_description: "Papel A4",
+    quantity: 10000,
+    unit: "resma",
+    currency: "BRL",
+    created_at: "2023-12-02",
+    net_price: 15.0,
+    net_value: 150000,
+  },
+  {
+    po: 12349,
+    supplier: "Electric Company",
+    material_code: "JKL345",
+    material_description: "Lâmpadas LED",
+    quantity: 500,
+    unit: "unit",
+    currency: "USD",
+    created_at: "2023-11-30",
+    net_price: 3.0,
+    net_value: 1500,
+  },
+  {
+    po: 12350,
+    supplier: "Food Supplier",
+    material_code: "MNO678",
+    material_description: "Café em grãos",
+    quantity: 50,
+    unit: "kg",
+    currency: "BRL",
+    created_at: "2023-12-01",
+    net_price: 20.0,
+    net_value: 1000,
+  },
+  {
+    po: 12351,
+    supplier: "Office Supplies",
+    material_code: "PQR901",
+    material_description: "Clipes",
+    quantity: 10000,
+    unit: "caixa",
+    currency: "USD",
+    created_at: "2023-11-29",
+    net_price: 2.0,
+    net_value: 20000,
+  },
+  {
+    po: 12352,
+    supplier: "Cleaning Supplies",
+    material_code: "STU234",
+    material_description: "Detergente",
+    quantity: 50,
+    unit: "litro",
+    currency: "EUR",
+    created_at: "2023-12-03",
+    net_price: 10.0,
+    net_value: 500,
+  },
+  {
+    po: 12353,
+    supplier: "Tech Gadgets",
+    material_code: "VWX567",
+    material_description: "Fones de ouvido",
+    quantity: 100,
+    unit: "unit",
+    currency: "BRL",
+    created_at: "2023-12-04",
+    net_price: 80.0,
+    net_value: 8000,
+  },
+  {
+    po: 12354,
+    supplier: "Fabric Supplier",
+    material_code: "YZ123",
+    material_description: "Tecido algodão",
+    quantity: 1000,
+    unit: "metro",
+    currency: "USD",
+    created_at: "2023-11-25",
+    net_price: 5.0,
+    net_value: 5000,
+  },
+  {
+    po: 12355,
+    supplier: "Hardware Store",
+    material_code: "ABC456",
+    material_description: "Parafusos",
+    quantity: 5000,
+    unit: "caixa",
+    currency: "EUR",
+    created_at: "2023-12-06",
+    net_price: 3.0,
+    net_value: 15000,
+  },
+  {
+    po: 12356,
+    supplier: "Software Company",
+    material_code: "DEF789",
+    material_description: "Licença software",
+    quantity: 1,
+    unit: "licença",
+    currency: "BRL",
+    created_at: "2023-12-07",
+    net_price: 5000.0,
+    net_value: 5000,
+  },
+  {
+    po: 12357,
+    supplier: "Furniture Store",
+    material_code: "GHI012",
+    material_description: "Cadeira ergonômica",
+    quantity: 20,
+    unit: "unit",
+    currency: "USD",
+    created_at: "2023-12-08",
+    net_price: 200.0,
+    net_value: 4000,
+  },
+  {
+    po: 12358,
+    supplier: "Stationery Supplier",
+    material_code: "JKL345",
+    material_description: "Canetas marca-texto",
+    quantity: 1000,
+    unit: "caixa",
+    currency: "EUR",
+    created_at: "2023-12-09",
+    net_price: 1.0,
+    net_value: 1000,
+  },
+  {
+    po: 12359,
+    supplier: "Electronics Store",
+    material_code: "MNO678",
+    material_description: "Carregador de celular",
+    quantity: 50,
+    unit: "unit",
+    currency: "BRL",
+    created_at: "2023-12-10",
+    net_price: 25.0,
+    net_value: 1250,
+  },
+];
+
+const mockData = {
+  columnsPR,
+  dataPR,
+  columnsPO,
+  dataPO,
 };
 
-export default mocks;
+export default mockData;
