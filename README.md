@@ -6,6 +6,10 @@ I did this project in order to improve my front-end development skills and learn
 
 UI5 Web Components for React is a Fiori compliant React library built on top of the UI5 Web Components. With the help of UI5 Web Components for React, you can use UI5 Web Components as if they were native React components. In addition to that, UI5 Web Components for React is providing complex components and layouts on top of the UI5 Web Components.
 
+## Home Page
+
+![](https://raw.githubusercontent.com/josehenriqueroveda/ui5-prpo/refs/heads/main/public/home-page.png)
+
 ## Purchase Requisitons
 
 ![](https://raw.githubusercontent.com/josehenriqueroveda/ui5-prpo/refs/heads/main/public/pr-page.png)
